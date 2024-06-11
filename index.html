@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Agrupe todo o conteúdo da página em uma nova div com a classe page. Lembre-se de adicionar a tag de fechamento -->
+
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff">Escolhas do Leitor</a>
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Seja um membro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+              use esse belo local para trabalhar ou estudar. Esse é um lugar
+              legal para estudantes legais!
+            </p>
+          </div>
+          <!-- -------------------------------------------------------------------- -->
+          <!--       Não remova o comentário até a seção 2.3 do roteiro da etapa 1         -->
+          <!-- -------------------------------------------------------------------- -->
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustração 'Dentro da biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <!-- --------------------------------------------------------------- -->
+          <!--        Não remova o comentário até a etapa final do projeto            -->
+          <!-- --------------------------------------------------------------- -->
+          <h2 class="staff__title">Escolhas do Leitor</h2>
+          <p class="staff__subtitle">Que nossos leitores adoram</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">O Que O Sol Faz Com As Flores</h3>
+                <p class="card__text">
+                  O que o sol faz com as flores é uma coletânea de poemas
+                  arrebatadores sobre crescimento e cura. Ancestralidade e
+                  honrar as raízes. Expatriação e o amadurecimento até encontrar
+                  um lar dentro de você. Organizado em cinco capítulos e
+                  ilustrado por Rupi Kaur, o livro percorre uma extraordinária
+                  jornada dividida em murchar, cair, enraizar, crescer,
+                  florescer.
+                </p>
+                <p class="card__footer">Rupi Kaur</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">10% mais feliz</h3>
+                <p class="card__text">
+                  Dan Harris era um jornalista promissor, apresentador na rede
+                  de televisão americana ABC News. Mas sua obsessão pelo
+                  trabalho, autocrítica exagerada e competitividade o levaram a
+                  um ponto crítico: um ataque de pânico ao vivo diante de
+                  milhões de telespectadores. Esse momento crucial o fez
+                  perceber a necessidade de mudança, e ele acabou embarcando
+                  numa inesperada odisseia através do mundo da espiritualidade.
+                </p>
+
+                <p class="card__footer">Dan Harris</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Granada</h3>
+                <p class="card__text">
+                  Uma explosão de conceitos e críticas sobre os hábitos da
+                  sociedade. Vitor Diel utiliza uma linguagem franca e direta
+                  com o leitor. Em "Granada", apresenta crônicas com reflexões
+                  sobre situações do cotidiano como amor, adolescência, mercado
+                  profissional, entre outros temas. "Foi na crônica que me
+                  encontrei. É o gênero jornalístico e literário que mais
+                  permite liberdades", afirma o autor.
+                </p>
+                <p class="card__footer">Vitor Diel</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">A Raiva Não Educa. A Calma Educa</h3>
+                <p class="card__text">
+                  Pedagoga e educadora parental, a autora convida a repensar a
+                  abordagem na educação infantil. Destaca que a educação não
+                  deve ser autoritária, constrangedora ou ameaçadora. Propõe uma
+                  educação respeitosa, que considere as necessidades e
+                  sentimentos da criança, estabelecendo limites necessários sem
+                  priorizar a obediência, mas sim o respeito mútuo.
+                </p>
+                <p class="card__footer">Maya Eigenmann</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
